@@ -1,0 +1,39 @@
+body{
+  font-family: Arial, sans-serif;
+}
+
+.hero-section{
+  min-height: 90vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:white;
+
+  background:
+  linear-gradient(
+  rgba(0,0,0,0.5),
+  rgba(0,0,0,0.5)
+  ),
+  url("https://images.unsplash.com/photo-1511578314322-379afb476865");
+
+  background-size:cover;
+  background-position:center;
+}
+
+.card img{
+  height:250px;
+  object-fit:cover;
+}
+
+.card{
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+footer{
+  margin-top:auto;
+}
